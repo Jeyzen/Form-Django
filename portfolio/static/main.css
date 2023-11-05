@@ -161,7 +161,8 @@ ul {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  margin-left: 20px;
   font-weight: 500;
   position: relative;
 }
@@ -178,7 +179,7 @@ ul {
 }
 
 .footer-col ul li:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .footer-col ul li a {
@@ -216,7 +217,7 @@ ul {
 }
 
 /* Responsive */
-@media (max-width: 767px) {
+@media (max-width: 350px) {
   .footer-col {
     min-width: 300px;
     width: 50%;
@@ -236,7 +237,7 @@ ul {
   }
 }
 
-@media (max-width: 574px) {
+@media (max-width: 350px) {
   .footer-col {
     min-width: 300px;
     width: 50%;
